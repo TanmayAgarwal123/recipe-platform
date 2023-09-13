@@ -24,17 +24,13 @@ function App() {
         {/* Routes */}
         <main>
           <Switch>
-            {/* Uncomment these once you've created the components */}
-            {/* <Route path="/" exact component={RecipeList} />
-            <Route path="/recipe/:id" component={Recipe} /> */}
+            <Route path="/" exact component={RecipeList} />
+            <Route path="/recipe/:id" component={Recipe} />
             {/* Add more routes as needed */}
           </Switch>
         </main>
       </div>
-      <Route path="/" exact component={RecipeList} />
-      <Route path="/recipe/:id" component={Recipe} />
     </Router>
-    
   );
 }
 
